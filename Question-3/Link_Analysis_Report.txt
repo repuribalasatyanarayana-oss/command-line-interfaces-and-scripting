@@ -1,0 +1,18 @@
+Link Analysis Report
+
+1. Inode Numbers
+Checked using: ls -li
+
+2. Hard Link vs Symbolic Link
+Hard links share the same inode as the original file.
+Symbolic links have a different inode and point to the original file.
+
+3. Effect of Deleting the Original File
+The hard link continues to access the file contents.
+The symbolic link becomes a broken link.
+
+4. Metadata
+Collected using the stat command.
+
+5. Conclusion
+Hard links remain functional after deleting the original file because they share the same inode. Symbolic links depend on the original file and become invalid if it is removed.

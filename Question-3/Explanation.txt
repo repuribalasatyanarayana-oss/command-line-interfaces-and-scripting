@@ -1,0 +1,39 @@
+Command: mkdir LinkAnalysis
+Explanation:
+The mkdir command created a directory named LinkAnalysis. This directory was used for the link analysis experiment.
+
+Command: cd LinkAnalysis
+Explanation:
+The cd command changed the current working directory to LinkAnalysis.
+
+Command: echo "Linux Link Analysis" > original.txt
+Explanation:
+The echo command created a file named original.txt and stored sample text inside it.
+
+Command: ln original.txt hardlink.txt
+Explanation:
+The ln command created a hard link named hardlink.txt. Both files point to the same inode.
+
+Command: ln -s original.txt softlink.txt
+Explanation:
+The ln -s command created a symbolic link named softlink.txt that points to the original file.
+
+Command: ls -li
+Explanation:
+The ls -li command displayed the inode numbers of the files. It helped compare the inode numbers of the original file, hard link, and symbolic link.
+
+Command: stat original.txt
+Explanation:
+The stat command displayed detailed metadata of the original file, including permissions, inode number, and timestamps.
+
+Command: rm original.txt
+Explanation:
+The rm command deleted the original file. This demonstrated the behavior of hard links and symbolic links after deletion.
+
+Command: ls -li
+Explanation:
+The ls -li command was executed again after deleting the original file. It showed that the hard link still existed while the symbolic link became broken.
+
+Command: cat Link_Analysis_Report.txt
+Explanation:
+The cat command displayed the report contents. It confirmed that the report file had been created successfully.
