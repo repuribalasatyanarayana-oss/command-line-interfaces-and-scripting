@@ -1,0 +1,31 @@
+Command: mkdir -p ProjectWorkspace/{Documents,Reports,Scripts}
+Explanation:
+The mkdir command with the -p option created the ProjectWorkspace directory along with the Documents, Reports, and Scripts subdirectories in a single command.
+
+Command: tree ProjectWorkspace
+Explanation:
+The tree command displayed the directory structure of ProjectWorkspace. It confirmed that the required subdirectories were created successfully.
+
+Command: ls -ld ProjectWorkspace
+Explanation:
+The ls -ld command displayed the permissions, ownership, and other details of the ProjectWorkspace directory before changing its permissions.
+
+Command: chmod 700 ProjectWorkspace
+Explanation:
+The chmod command changed the permissions of the ProjectWorkspace directory to 700. This allows only the owner to read, write, and execute the directory.
+
+Command: ls -ld ProjectWorkspace
+Explanation:
+The ls -ld command was executed again to verify that the permissions were successfully changed to 700.
+
+Command: umask
+Explanation:
+The umask command displayed the default permission mask used when creating new files and directories.
+
+Command: nano Project_Workspace_Report.txt
+Explanation:
+The nano editor was used to create the Project_Workspace_Report.txt file and record the required observations.
+
+Command: cat Project_Workspace_Report.txt
+Explanation:
+The cat command displayed the contents of the Project_Workspace_Report.txt file. It verified that the report was saved successfully.
