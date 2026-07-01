@@ -1,0 +1,23 @@
+Command: lsblk
+Explanation:
+The lsblk command displayed all available storage devices and their partitions. It provided information about the system's storage layout.
+
+Command: mount
+Explanation:
+The mount command listed all mounted file systems and their mount points. It showed how storage devices were attached to the system.
+
+Command: df -h
+Explanation:
+The df -h command displayed disk usage statistics in a human-readable format. It showed the total, used, and available storage space.
+
+Command: df -i
+Explanation:
+The df -i command displayed inode usage statistics for all mounted file systems. It helped verify inode availability.
+
+Command: vi Storage_Assessment_Report.txt
+Explanation:
+The vi editor was used to create and edit the Storage_Assessment_Report.txt file as required by the assignment.
+
+Command: cat Storage_Assessment_Report.txt
+Explanation:
+The cat command displayed the contents of the Storage_Assessment_Report.txt file. It confirmed that the report was saved correctly.
