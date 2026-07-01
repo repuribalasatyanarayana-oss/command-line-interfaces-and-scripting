@@ -1,0 +1,26 @@
+Linux Environment Verification Report
+
+1. Username and Groups
+uid=1000(bala) gid=1000(bala) groups=1000(bala),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),100(users)
+
+2. Current Shell
+/bin/bash
+
+3. Current Working Directory
+/home/bala
+
+4. List of Files and Directories
+.
+..
+.bash_logout
+.bashrc
+.cache
+.config
+.landscape
+.motd_shown
+.profile
+
+5. Network Connectivity Verification
+Ping to google.com completed successfully.
+4 packets transmitted, 4 received, 0% packet loss.
+

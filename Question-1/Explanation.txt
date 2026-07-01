@@ -1,0 +1,23 @@
+Command: id
+Explanation:
+The id command was used to display the current user's UID, GID, and group memberships. It confirmed the logged-in user's identity and associated groups.
+
+Command: echo $SHELL
+Explanation:
+The echo $SHELL command displayed the current shell being used. The output showed that the Bash shell was active.
+
+Command: pwd
+Explanation:
+The pwd command displayed the current working directory. It confirmed that the working directory was /home/bala.
+
+Command: ls -la
+Explanation:
+The ls -la command listed all files and directories, including hidden files, along with their permissions and ownership.
+
+Command: ping -c 4 google.com
+Explanation:
+The ping command tested network connectivity by sending four packets to google.com. All packets were received successfully, confirming internet connectivity.
+
+Command: cat Environment_Report.txt
+Explanation:
+The cat command displayed the contents of the Environment_Report.txt file. This verified that the report had been created successfully and contained the required information.
